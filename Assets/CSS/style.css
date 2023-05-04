@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 63, 107);
+}
+
+h1 {
+    color: white;
+    font-size: 200%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    padding: 0px 20px;
+    font-size: 125%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 5px solid white;
+}
