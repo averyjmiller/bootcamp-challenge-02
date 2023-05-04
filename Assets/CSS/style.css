@@ -14,6 +14,7 @@ h1 {
 nav ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul li {
@@ -21,11 +22,12 @@ nav ul li {
     font-size: 125%;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
     border-bottom: 5px solid white;
 }
+
 /* Example provided by the background image in Challenge 01 */
 .bg-image {
     height: 200px;
@@ -34,4 +36,27 @@ a {
     background-image: url("../Images/placeholder.png");
     background-size: cover;
     background-position: center;
+}
+
+#about-me,
+#work,
+#contact-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 20%;
+}
+
+#work div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work img {
+    width: 50%;
+    padding: 2%;
+}
+
+#work #first-work {
+    width: 100%;
 }
