@@ -26,3 +26,12 @@ a {
     text-decoration: none;
     border-bottom: 5px solid white;
 }
+/* Example provided by the background image in Challenge 01 */
+.bg-image {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Images/placeholder.png");
+    background-size: cover;
+    background-position: center;
+}
