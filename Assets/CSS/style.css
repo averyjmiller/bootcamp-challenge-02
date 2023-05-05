@@ -87,19 +87,44 @@ nav a {
   align-items: flex-start;
 }
 
-.work-images {
+.work-links img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  filter: opacity(75%);
+  transition: filter 0.5s ease-in-out;
+}
+
+.work-links {
+  width: 48%;
+  margin: 1%;
+  border: 5px solid var(--main-color);
+  background-color: aquamarine;
+}
+
+#first-work {
+  width: 100%;
+}
+
+.work-links:hover img {
+  filter: opacity(100%);
+  transition: filter 0.5s ease-in-out;
+}
+
+/* .work-links {
   display: contents;
 }
 
-.work-images img {
+.work-links img {
   width: 45%;
   height: auto;
   margin: 1%;
+  border: 5px solid var(--main-color);
 }
 
-.work #first-work {
+.work-links #first-work {
   width: 92%;
-}
+} */
 
 address {
   height: 150px;
