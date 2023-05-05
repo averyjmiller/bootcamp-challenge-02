@@ -95,11 +95,21 @@ nav a {
   transition: filter 0.5s ease-in-out;
 }
 
-.work-links {
+.work .section-content div {
+  position: relative;
   width: 48%;
   margin: 1%;
   border: 5px solid var(--main-color);
   background-color: aquamarine;
+}
+
+.work .section-content div h3 {
+  position: absolute;
+  bottom: 10%;
+  font-size: 150%;
+  z-index: 1;
+  background-color: var(--main-color);
+  padding: 2%;
 }
 
 #first-work {
@@ -110,21 +120,6 @@ nav a {
   filter: opacity(100%);
   transition: filter 0.5s ease-in-out;
 }
-
-/* .work-links {
-  display: contents;
-}
-
-.work-links img {
-  width: 45%;
-  height: auto;
-  margin: 1%;
-  border: 5px solid var(--main-color);
-}
-
-.work-links #first-work {
-  width: 92%;
-} */
 
 address {
   height: 150px;
