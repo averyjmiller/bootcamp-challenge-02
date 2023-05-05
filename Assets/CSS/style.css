@@ -83,16 +83,22 @@ nav a {
 .work .section-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.work img {
-  width: 50%;
-  padding: 1%;
+.work-images {
+  display: contents;
+}
+
+.work-images img {
+  width: 45%;
+  height: auto;
+  margin: 1%;
 }
 
 .work #first-work {
-  width: 100%;
-  padding-top: 0;
+  width: 92%;
 }
 
 address {
