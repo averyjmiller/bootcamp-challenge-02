@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Avery Miller's Portfolio</title>
-        <link rel="stylesheet" href="./Assets/CSS/reset.css"/>
-        <link rel="stylesheet" href="./Assets/CSS/style.css"/>
-    </head>
-    <body>
-        <header>
-            <h1>Avery Miller</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="bg-image"></div>
-        <main>
-            <section id="about-me">
-                <h2>About Me</h2>
-                <div class="about-me-info">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, excepturi temporibus rem adipisci optio rerum facere blanditiis, ipsam iure esse accusantium eligendi aut est deserunt. In, praesentium at. Inventore, consequatur!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, excepturi temporibus rem adipisci optio rerum facere blanditiis, ipsam iure esse accusantium eligendi aut est deserunt. In, praesentium at. Inventore, consequatur!</p>
-                </div>
-            </section>
-            <section id="work">
-                <h2>Work</h2>
-                <div>
-                    <img src="./Assets/Images/placeholder.png" alt="placeholder" id="first-work"/>
-                    <img src="./Assets/Images/placeholder.png" alt="placeholder"/>
-                    <img src="./Assets/Images/placeholder.png" alt="placeholder"/>
-                    <img src="./Assets/Images/placeholder.png" alt="placeholder"/>
-                    <img src="./Assets/Images/placeholder.png" alt="placeholder"/>
-                </div>
-            </section>
-            <section id="contact-me">
-                <h2>Contact Me</h2>
-                <ul>
-                    <li><a href="phone">(555) 555-5555</a></li>
-                    <li><a href="email">averymiller2060@gmail.com</a></li>
-                    <li><a href="github">GitHub</a></li>
-                    <li><a href="twitter">Twitter</a></li>
-                </ul>
-            </section>
-        </main>
-        <footer>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Avery Miller // Web Developer</title>
+    <link rel="stylesheet" href="./Assets/CSS/reset.css"/>
+    <link rel="stylesheet" href="./Assets/CSS/style.css"/>
+  </head>
 
-        </footer>
-    </body>
+  <body>
+    <header>
+      <h1>Avery Miller</h1>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="#">Resume</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h2>Portfolio</h2>
+      </div>
+    </section>
+
+    <main class="page-wrapper">
+      <section class="page-section about" id="about">
+        <h2>About Me</h2>
+        <div class="section-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ut dolorem, perspiciatis laborum doloribus laudantium quaerat voluptate illum tempore reprehenderit ipsum possimus corrupti quae, ipsa facilis repudiandae numquam illo?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, excepturi temporibus rem adipisci optio rerum facere blanditiis, ipsam iure esse accusantium eligendi aut est deserunt. In, praesentium at. Inventore, consequatur!</p>
+        </div>
+      </section>
+
+      <section class="page-section work" id="work">
+        <h2>Work</h2>
+        <div class="section-content">
+          <img src="./Assets/Images/placeholder.png" alt="placeholder" id="first-work"/>
+          <img src="./Assets/Images/placeholder.png" alt="placeholder"/>
+          <img src="./Assets/Images/placeholder.png" alt="placeholder"/>
+          <img src="./Assets/Images/placeholder.png" alt="placeholder"/>
+          <img src="./Assets/Images/placeholder.png" alt="placeholder"/>
+        </div>
+      </section>
+
+      <section class="page-section contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="section-content">
+          <address>
+            <a href="tel:+16143650548">(614) 365-0548</a>
+            <a href="mailto:averymiller2060@gmail.com">averymiller2060@gmail.com</a>
+            <a href="https://www.github.com/averyjmiller" target="_blank">GitHub</a>
+          </address>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

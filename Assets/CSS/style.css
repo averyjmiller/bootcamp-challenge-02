@@ -1,62 +1,106 @@
+:root {
+  --main-color: #2b3f6b;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
 header {
-    display: flex;
-    padding: 2%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(43, 63, 107);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1% 2%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
 }
 
 h1 {
-    color: white;
-    font-size: 200%;
+  color: white;
+  font-size: 250%;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul li {
-    padding: 0px 20px;
-    font-size: 125%;
+nav {
+  display: flex;
+  padding: 2%;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    border-bottom: 5px solid white;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  border-bottom: 1px solid white;
+  font-size: 125%;
 }
 
 /* Example provided by the background image in Challenge 01 */
-.bg-image {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../Images/placeholder.png");
-    background-size: cover;
-    background-position: center;
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 25px;
+  background-image: url("../Images/placeholder.png");
+  background-size: contain;
+  background-position: center;
 }
 
-#about-me,
-#work,
-#contact-me {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0 20%;
+.hero h2 {
+  font-size: 300%;
 }
 
-#work div {
-    display: flex;
-    flex-wrap: wrap;
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2% 20% 2% 10%;
 }
 
-#work img {
-    width: 50%;
-    padding: 2%;
+.page-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2%;
 }
 
-#work #first-work {
-    width: 100%;
+.section-content {
+  flex: 4 0 0;
+  padding-left: 2%;
+  border-left: 5px solid var(--main-color);
+}
+
+.page-section h2 {
+  flex: 1 0 0;
+  font-size: 200%;
+  text-align: end;
+  color: var(--main-color);
+}
+
+.work .section-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work img {
+  width: 50%;
+  padding: 1%;
+}
+
+.work #first-work {
+  width: 100%;
+  padding-top: 0;
+}
+
+address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+address a {
+  text-decoration: none;
+  border-bottom: 5px solid var(--main-color);
 }
