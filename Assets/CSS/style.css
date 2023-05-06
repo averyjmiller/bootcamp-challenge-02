@@ -12,7 +12,7 @@ body {
 header {
   display: flex;
   flex-wrap: wrap;
-  padding: 1% 2%;
+  padding: 20px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--main-color);
@@ -25,7 +25,6 @@ h1 {
 
 nav {
   display: flex;
-  padding: 2%;
 }
 
 nav a {
@@ -57,7 +56,7 @@ nav a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  margin: 2% 20% 2% 10%;
+  margin: 2% 15% 2% 5%;
 }
 
 .page-section {
@@ -68,12 +67,14 @@ nav a {
 }
 
 .section-content {
+  min-width: 80%;
   flex: 4 0 0;
   padding-left: 2%;
   border-left: 5px solid var(--main-color);
 }
 
 .page-section h2 {
+  min-width: 20%;
   flex: 1 0 0;
   font-size: 250%;
   margin-right: 5px;
@@ -133,11 +134,48 @@ nav a {
 address {
   height: 150px;
   display: flex;
+  flex-wrap: wrap;
   justify-content:space-evenly;
   align-items: center;
 }
 
 address a {
   text-decoration: none;
-  border-bottom: 1px solid var(--main-color);
+  border-bottom: 5px solid var(--main-color);
+}
+
+@media screen and (max-width: 968px) {
+  .page-section h2 {
+    font-size: 200%;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  h1 {
+    padding: 0 0 3% 0;
+  }
+
+  .page-wrapper {
+    margin: 0 auto;
+  }
+
+  .section-content {
+    min-width: 0;
+    border-left: 0;
+  }
+
+  .page-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-section h2 {
+    min-width: 0;
+  }
+
 }
