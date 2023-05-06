@@ -1,5 +1,6 @@
 :root {
   --main-color: #2b3f6b;
+  --accent-color: #2bbaaa;
 }
 
 body {
@@ -80,6 +81,14 @@ nav a {
   color: var(--main-color);
 }
 
+.about img {
+  width: 25%;
+  float: left;
+  margin-right: 2%;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 2px rgb(132, 124, 116);
+}
+
 .work .section-content {
   display: flex;
   flex-wrap: wrap;
@@ -99,8 +108,8 @@ nav a {
   position: relative;
   width: 48%;
   margin: 1%;
-  border: 5px solid var(--main-color);
-  background-color: aquamarine;
+  border: 5px solid var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .work .section-content div h3 {
@@ -108,7 +117,7 @@ nav a {
   bottom: 10%;
   font-size: 150%;
   z-index: 1;
-  background-color: var(--main-color);
+  background-color: var(--accent-color);
   padding: 2%;
 }
 
