@@ -92,7 +92,7 @@ nav a {
   max-height: 100%;
   display: block;
   filter: opacity(75%);
-  transition: filter 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .work .section-content div {
@@ -118,7 +118,7 @@ nav a {
 
 .work-links:hover img {
   filter: opacity(100%);
-  transition: filter 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 address {
