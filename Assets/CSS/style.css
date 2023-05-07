@@ -175,6 +175,8 @@ address a {
   .section-content {
     min-width: 0;
     border-left: 0;
+    border-top: 5px solid var(--main-color);
+    padding-top: 5%;
   }
 
   .page-section {
