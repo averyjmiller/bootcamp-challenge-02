@@ -152,7 +152,7 @@ address a {
   border-bottom: 5px solid var(--main-color);
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1100px) {
   .page-section h2 {
     font-size: 200%;
   }
