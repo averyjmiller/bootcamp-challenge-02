@@ -37,6 +37,11 @@ nav a {
   font-size: 125%;
 }
 
+nav a:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
 /* Example provided by the background image in Challenge 01 */
 .hero {
   display: flex;
