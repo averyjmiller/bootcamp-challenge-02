@@ -156,7 +156,8 @@ footer {
   background-color: var(--main-color);
   text-align: center;
   font-size: 125%;
-  padding: 2% 2% 5% 2%;
+  padding: 2%;
+  height: 200px;
 }
 
 @media screen and (max-width: 1100px) {
