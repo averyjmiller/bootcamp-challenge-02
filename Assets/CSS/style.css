@@ -3,14 +3,16 @@
 }
 
 :root {
-  --main-color: #2b3f6b;
-  --accent-color: #2bbaaa;
+  --main-color: #24382a;
+  --accent-color: #89c98d;
+  --bg-color: #ece8e0;
 }
 
 body {
   display: flex;
   flex-direction: column;
   line-height: 1.5;
+  background-color: var(--bg-color);
 }
 
 header {
@@ -46,20 +48,22 @@ nav a:hover {
   border-color: var(--accent-color);
 }
 
-/* Example provided by the background image in Challenge 01 */
+/* Hero example provided by the background image in Challenge 01 */
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
   margin-bottom: 25px;
-  background-image: url("../Images/placeholder.png");
-  background-size: contain;
+  background-image: url("../Images/Hero/hero.jpg");
+  background-size: cover;
   background-position: center;
 }
 
 .hero h2 {
-  font-size: 3vw;
+  font-size: 4vw;
+  color: white;
+  text-shadow: 8px 5px 3px #000000;
 }
 
 .page-wrapper {
@@ -95,6 +99,7 @@ nav a:hover {
 
 .about img {
   width: 25%;
+  min-width: 150px;
   float: left;
   margin-right: 2%;
   border-radius: 50%;
@@ -175,6 +180,10 @@ footer {
     font-size: 7vw;
   }
 
+  .hero h2 {
+    font-size: 6vw;
+  }
+
   .page-wrapper {
     margin: 0 auto;
   }
@@ -191,8 +200,7 @@ footer {
     align-items: center;
   }
 
-  .page-section h2,
-  .hero h2 {
+  .page-section h2 {
     min-width: 0;
     font-size: 5vw;
   }
@@ -213,8 +221,11 @@ footer {
     font-size: 9vw;
   }
 
-  .page-section h2,
   .hero h2 {
+    font-size: 8vw;
+  }
+
+  .page-section h2 {
     font-size: 7vw;
   }
 }
