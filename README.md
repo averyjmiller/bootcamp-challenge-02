@@ -12,5 +12,6 @@ https://averyjmiller.github.io/my-portfolio/. Here is a screenshot of the deploy
 ## Credits
 * The reset.css file is provided by the example code in Activity 11 of Unit 2.
 * The section class and id names and title are provided by the code snippet I recieved from the TA's.
+* The styling for the hero class is provided by the example in Challenge 1 of Unit 1.
 ## License
 N/A
