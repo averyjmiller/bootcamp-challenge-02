@@ -103,7 +103,8 @@ nav a:hover {
   float: left;
   margin-right: 2%;
   border-radius: 50%;
-  box-shadow: 5px 5px 10px 2px rgb(132, 124, 116);
+  border: 2px solid white;
+  padding: 5px;
 }
 
 .work .section-content {
