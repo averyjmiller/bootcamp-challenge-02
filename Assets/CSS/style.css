@@ -159,6 +159,12 @@ address a {
   text-decoration: none;
   border-bottom: 5px solid var(--main-color);
   margin: 0 2%;
+  color: var(--main-color);
+}
+
+address a:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 footer {
