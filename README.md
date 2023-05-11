@@ -9,6 +9,7 @@ You can clone this respository on GitHub at https://github.com/averyjmiller/my-p
 ## Usage
 You can see my deployed portfolio to read about me and check out my previous web applications. Here is the link to the deployed website: 
 https://averyjmiller.github.io/my-portfolio/. Here is a screenshot of the deployed website:
+![Screenshot of the deployed webpage](./Assets/Images/Avery_Miller__Web_Developer.jpg)
 ## Credits
 * The reset.css file is provided by the example code in Activity 11 of Unit 2.
 * The section class and id names and title are provided by the code snippet I recieved from the TA's.
