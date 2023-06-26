@@ -3,7 +3,7 @@
 }
 
 :root {
-  --main-color: #24382a;
+  --main-color: #ffffff;
   --accent-color: #89c98d;
   --bg-color: #ece8e0;
 }
@@ -15,32 +15,22 @@ body {
   background-color: var(--bg-color);
 }
 
-header {
+nav {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px 20px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--main-color);
 }
 
-h1 {
-  color: white;
-  font-size: 4vw;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-nav a {
-  color: white;
+nav a,
+nav h4 {
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  margin: 0 20px;
-  border-bottom: 1px solid white;
-  font-size: 125%;
+  margin: 0 10px;
+  font-size: 1.25rem;
+  font-weight: normal;
 }
 
 nav a:hover {
@@ -48,22 +38,24 @@ nav a:hover {
   border-color: var(--accent-color);
 }
 
-/* Hero example provided by the background image in Challenge 01 */
-.hero {
+nav div {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
-  height: 200px;
-  margin-bottom: 25px;
-  background-image: url("../Images/Hero/hero.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
-.hero h2 {
-  font-size: 4vw;
-  color: white;
-  text-shadow: 8px 5px 3px #000000;
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+}
+
+a {
+  color: unset;
+}
+
+#about {
+  text-indent: 25px;
 }
 
 .page-wrapper {
@@ -71,30 +63,35 @@ nav a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  margin: 2% 20% 2% 10%;
+  /* margin: 2% 20% 2% 10%; */
+  margin: 20px 0;
 }
 
 .page-section {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin: 2%;
+  /* margin: 2%; */
+  width: 1000px;
+  margin: 20px auto;
 }
 
 .page-section h2 {
-  min-width: 20%;
-  flex: 1 0 0;
-  font-size: 3vw;
+  /* min-width: 20%; */
+  /* flex: 1 0 0; */
+  width: 20%;
+  font-size: 2rem;
   margin-right: 5px;
   text-align: end;
-  color: var(--main-color);
+  color: black;
 }
 
 .section-content {
-  min-width: 80%;
-  flex: 4 0 0;
+  /* min-width: 80%; */
+  /* flex: 4 0 0; */
+  width: 80%;
   padding-left: 2%;
-  border-left: 5px solid var(--main-color);
+  border-left: 5px solid black;
 }
 
 #profile-image {
@@ -119,7 +116,11 @@ nav a:hover {
   width: 48%;
   margin: 1%;
   border: 5px solid var(--accent-color);
-  background-color: var(--accent-color);
+}
+
+.work-items:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 1px grey;
 }
 
 .label {
@@ -133,13 +134,7 @@ nav a:hover {
 .work-links img {
   width: 100%;
   display: block;
-  filter: opacity(75%);
-  transition: 0.25s ease-in-out;
-}
-
-.work-links:hover img {
-  filter: opacity(100%);
-  transition: 0.25s ease-in-out;
+  aspect-ratio: 2;
 }
 
 #first-work {
@@ -157,9 +152,9 @@ address {
 address a {
   font-size: 125%;
   text-decoration: none;
-  border-bottom: 5px solid var(--main-color);
+  border-bottom: 5px solid black;
   margin: 0 2%;
-  color: var(--main-color);
+  color: black;
 }
 
 address a:hover {
@@ -176,29 +171,22 @@ footer {
   height: 100px;
 }
 
+@media screen and (max-width: 1020px) {
+  .page-section {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  header {
+  nav {
     flex-direction: column;
-  }
-
-  h1 {
-    padding: 0 0 3% 0;
-    font-size: 7vw;
-  }
-
-  .hero h2 {
-    font-size: 6vw;
-  }
-
-  .page-wrapper {
-    margin: 0 auto;
   }
 
   .section-content {
     min-width: 0;
     border-left: 0;
-    border-top: 5px solid var(--main-color);
-    padding: 5% 0;
+    border-top: 5px solid black;
+    padding: 10px 0 0 0;
   }
 
   .page-section {
@@ -207,8 +195,8 @@ footer {
   }
 
   .page-section h2 {
-    min-width: 0;
-    font-size: 5vw;
+    width: 100%;
+    text-align: center;
   }
 
   address {
@@ -221,17 +209,5 @@ footer {
 @media screen and (max-width: 530px) {
   .work-items {
     width: 100%;
-  }
-
-  h1 {
-    font-size: 9vw;
-  }
-
-  .hero h2 {
-    font-size: 8vw;
-  }
-
-  .page-section h2 {
-    font-size: 7vw;
   }
 }
