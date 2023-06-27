@@ -21,7 +21,7 @@ nav {
   position: fixed;
   background-color: var(--main-color);
   box-shadow: 0 1rem 10rem gray;
-  padding: 10px 20px;
+  padding: 10px 15px;
   z-index: 1;
   width: 100vw;
 }
@@ -220,7 +220,7 @@ main {
   }
 
   main {
-    margin: 0 20px;
+    margin: 0 15px;
   }
 
   .page-section {
@@ -264,12 +264,12 @@ main {
 }
 
 @media screen and (max-width: 410px) {
-  #nav-pages .resume {
-    display: none;
+  h1 {
+    font-size: 2rem;
   }
 
-  .dropdown-menu .resume {
-    display: inline-block;
+  nav a {
+    font-size: 1rem;
   }
 
   #about a {
@@ -278,5 +278,21 @@ main {
 
   .label {
     font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  #nav-pages .resume {
+    display: none;
+  }
+
+  .dropdown-menu .resume {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  #about {
+    margin: 10vh auto;
   }
 }
