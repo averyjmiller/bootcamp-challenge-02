@@ -1,18 +1,9 @@
 # My Portfolio
 
 ## Description
-This repository is my portfolio as a web developer to showcase my work for future employers. This portfolio contains information about me,
-a section to display the previous applications that I have worked on, and a section for employers to contact me. With HTML and CSS methods
-such as flexbox, media queries, and CSS variables, my skills as a web developer are shown in this project.
-## Installation
-You can clone this respository on GitHub at https://github.com/averyjmiller/my-portfolio
-## Usage
-You can see my deployed portfolio to read about me and check out my previous web applications. Here is the link to the deployed website: 
-https://averyjmiller.github.io/my-portfolio/. Here is a screenshot of the deployed website:
-![Screenshot of the deployed webpage](./Assets/Images/Avery_Miller__Web_Developer.jpg)
-## Credits
-* The reset.css file is provided by the example code in Activity 11 of Unit 2.
-* The section class and id names and title are provided by the code snippet I recieved from the TA's.
-* The styling for the hero class is provided by the example in Challenge 1 of Unit 1.
-## License
-N/A
+Hello! I'm Avery, a full stack web developer.
+I am currently studying through The Ohio State University's coding boot camp. I am passionate about creating accessible and fluid web apps with an innovative back-end!
+My technical skills include HTML5, CSS3, JavaScript, jQuery, and making RESTful APIs.
+I am currently learning Node.js to further develop my back-end skills.
+If you have any questions or inquiries, please feel free to contact me. I appreciate your time for checking out my portfolio, and I hope to hear from you!
+![My portfolio](./Assets/Images/Avery_Miller_Portfolio.png)
