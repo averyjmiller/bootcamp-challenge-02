@@ -20,7 +20,7 @@ body {
 nav {
   position: fixed;
   background-color: var(--main-color);
-  box-shadow: 0 1rem 10rem gray;
+  box-shadow: 0 1rem 8rem lightgray;
   padding: 10px 15px;
   z-index: 1;
   width: 100vw;
@@ -90,8 +90,9 @@ a {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .page-section {
@@ -103,7 +104,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   margin: 0 auto;
 }
 
